@@ -4,8 +4,8 @@ A minimal links page made with Hugo.
 
 ## Author:
 
-[Maheen Waris](https://maheenwaris.com)
-[Mansoor Barri](https://mansoorbarri.com)
+- [Maheen Waris](https://maheenwaris.com)
+- [Mansoor Barri](https://mansoorbarri.com)
 
 ### demo: https://glim-midnight.pages.dev
 

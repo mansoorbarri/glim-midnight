@@ -1,0 +1,3 @@
+[submodule "examplesite/themes/glim-midnight"]
+	path = examplesite/themes/glim-midnight
+	url = https://github.com/mansoorbarri/glim-midnight

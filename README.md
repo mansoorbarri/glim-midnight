@@ -67,4 +67,4 @@ Google PageSpeed Insights
 
 ## Licence
 
-This code is licensed under [GNU GPLv3](https://github.com/mansoorbarri/glim-midnight/blob/main/LICENCE)
+This code is licensed under [MIT](https://github.com/mansoorbarri/glim-midnight/blob/main/LICENCE)

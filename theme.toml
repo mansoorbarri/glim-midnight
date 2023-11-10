@@ -1,0 +1,16 @@
+name = "Glim Midnight"
+description = "A minimal links page made with Hugo"
+
+license = "MIT"
+licenselink = "https://github.com/mansoorbarri/glim-midnight/blob/master/LICENSE"
+
+homepage = "https://github.com/mansoorbarri/glim-midnight/"
+demosite = "http://glim-midnight.pages.dev/"
+
+tags = ["Bootstrap", "Dark", "Minimal", "Responsive"]
+min_version = "0.41.0"
+
+authors = [
+  {name = "Maheen Waris", homepage = "https://maheenwaris.com"},
+  {name = "Mansoor Barri", homepage = "https://mansoorbarri.com"},
+] 

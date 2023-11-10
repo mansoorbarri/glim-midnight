@@ -1,0 +1,32 @@
+{{ define "main"}}
+    <div>
+        <div class='mainbg'>
+            <video autoplay muted loop>
+                {{ if .Site.Params.background }}
+                <source src="{{ .Site.Params.background }}" type="video/mp4">
+            {{ else }}
+                <source src="bg.mp4" type="video/mp4">
+            {{ end }}
+            </video>
+            <div class='content'>
+                <div>
+                    <div class='contenthead'>
+                        <h3 class='contentheading'>{{ .Site.Params.title }}</h3>
+                    </div>
+                    <div class='contenttypewritter animatedText'></div>
+                    <div class='contentbtn'>
+                        {{ range .Site.Params.links }}
+                          <a href="{{ .url }}" class='btn btn-outline-light' role='button' target="_blank">{{ .name }}</a>
+                        {{ end }}
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS for typewritter -->
+    <script>
+        const textArray = {{ .Site.Params.phrases | jsonify | safeJS }};
+    </script>
+    <script src='/js/script.js'></script>
+{{ end }}

@@ -4,7 +4,7 @@ theme = "glim-midnight"
 
 [params]
     title = "Glim Midnight"
-    phrases = ["Bootstrap", "Dark", "Minimal", "Responsive"]
+    phrases = ["Hugo", "Dark", "Minimal", "Responsive"]
     links = [
     {name = "Github", url = "https://github.com/mansoorbarri/glim-midnight/"},    
     {name = "Wiki", url = "https://github.com/mansoorbarri/glim-midnight/wiki"},    

@@ -1,0 +1,81 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Noto Sans Mono", monospace;
+}
+
+.mainbg {
+    height: auto;
+}
+
+.mainbg video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+.content {
+    padding-bottom: 5%;
+    padding-top: 8%;
+}
+
+.content div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.contenthead {
+    padding: 3px;
+}
+
+.contentheading {
+    font-family: inherit;
+    margin: 0%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-shadow: 0 0 3px #fff;
+}
+
+.animatedText {
+    height: 5vh;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-shadow: 0 0 5px #fff;
+    width: 100%;
+}
+
+/* Style for both button and anchor */
+.contentbtn button,
+.contentbtn a {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: all .15s ease;
+    letter-spacing: .025em;
+    text-shadow: 0 0 1px #fff;
+    text-decoration: none; /* Remove default underline on anchor elements */
+    display: inline-block; /* Ensure consistent spacing */
+}
+
+.contentbtn button:hover,
+.contentbtn a:hover {
+    color: black;
+    background-color: #fff;
+}
+
+/* Responsive */
+@media screen AND (max-width: 700px) {
+    .mainbg {
+        height: 100vh !important;
+    }
+}

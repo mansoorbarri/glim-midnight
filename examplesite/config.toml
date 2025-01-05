@@ -8,8 +8,7 @@ theme = "glim-midnight"
     links = [
     {name = "Github", url = "https://github.com/mansoorbarri/glim-midnight/"},    
     {name = "Wiki", url = "https://github.com/mansoorbarri/glim-midnight/wiki"},    
-    {name = "Author I", url = "https://maheenwaris.com/"},    
-    {name = "Author II", url = "https://mansoorbarri.com/"},    
+    {name = "Author", url = "https://mansoorbarri.com/", newTab = true},
     {name = "Hugo", url = "https://gohugo.io/"},    
     ] 
     background = "bg.mp4"

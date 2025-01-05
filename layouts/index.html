@@ -16,7 +16,13 @@
                     <div class='contenttypewritter animatedText'></div>
                     <div class='contentbtn'>
                         {{ range .Site.Params.links }}
-                          <a href="{{ .url }}" class='btn btn-outline-light' role='button' target="_blank">{{ .name }}</a>
+                            <a href="{{ .url }}" class='btn btn-outline-light' role='button' 
+                                {{ if or (.newTab | default false) }}
+                                    target="_blank"
+                                {{ else }}
+                                    target="_self"
+                                {{ end }}
+                            >{{ .name }}</a>
                         {{ end }}
                       </div>
                 </div>

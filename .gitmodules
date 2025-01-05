@@ -1,1 +1,4 @@
 
+[submodule "examplesite/themes/glim-midnight"]
+	path = examplesite/themes/glim-midnight
+	url = git@github.com:mansoorbarri/glim-midnight.git

@@ -11,6 +11,5 @@ tags = ["Bootstrap", "Dark", "Minimal", "Responsive"]
 min_version = "0.133.0"
 
 authors = [
-  {name = "Maheen Waris", homepage = "https://maheenwaris.com"},
   {name = "Mansoor Barri", homepage = "https://mansoorbarri.com"},
 ] 

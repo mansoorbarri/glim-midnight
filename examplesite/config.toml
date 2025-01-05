@@ -13,3 +13,4 @@ theme = "glim-midnight"
     {name = "Hugo", url = "https://gohugo.io/"},    
     ] 
     background = "bg.mp4"
+    footer = "Made with ❤️ by <a href='https://mansoorbarri.com/' target='_blank'>Mansoor Barri</a>"

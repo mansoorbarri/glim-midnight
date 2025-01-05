@@ -1,0 +1,7 @@
+<footer>
+    {{ if .Site.Params.footer }}
+        <p>{{ site.Params.footer | safeHTML }}</p>
+    {{ else }}
+        <p>Made with <3 by <a href="https://mansoorbarri.com/">Mansoor Barri</a></p>
+    {{ end }}
+</footer>

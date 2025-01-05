@@ -1,0 +1,15 @@
+baseURL = "http://glim-midnight.pages.dev"
+languageCode = "en-us"
+theme = "../"
+
+[params]
+    title = "Glim Midnight"
+    phrases = ["Bootstrap", "Dark", "Minimal", "Responsive"]
+    links = [
+    {name = "Github", url = "https://github.com/mansoorbarri/glim-midnight/", newTab = true},
+    {name = "Author I", url = "https://maheenwaris.com/"},    
+    {name = "Author II", url = "https://mansoorbarri.com/"},    
+    {name = "Hugo", url = "https://gohugo.io/"},    
+    ] 
+    backgroundImage = "bg.png"
+    footer = "Made with ❤️ by <a href='https://mansoorbarri.com/' target='_blank'>Mansoor Barri</a>"

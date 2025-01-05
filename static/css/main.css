@@ -73,6 +73,34 @@
     background-color: #fff;
 }
 
+footer {
+    align-items: center;
+    background-color: transparent;
+    bottom: 0;
+    display: flex;
+    font-family: system-ui, -apple-system, sans-serif;
+    height: 50px;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    right: 0;
+    width: 100%;
+}
+
+footer p {
+    color: whitesmoke;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: grey;
+}
+
 /* Responsive */
 @media screen AND (max-width: 700px) {
     .mainbg {

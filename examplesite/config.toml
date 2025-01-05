@@ -12,4 +12,4 @@ theme = "glim-midnight"
     {name = "Author II", url = "https://mansoorbarri.com/"},    
     {name = "Hugo", url = "https://gohugo.io/"},    
     ] 
-    background = "bg.mp4"
+    backgroundVideo = "bg.mp4"

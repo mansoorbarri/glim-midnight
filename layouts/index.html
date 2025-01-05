@@ -1,13 +1,17 @@
-{{ define "main"}}
+{{ define "main" }}
     <div>
         <div class='mainbg'>
-            <video autoplay muted loop>
-                {{ if .Site.Params.background }}
-                <source src="{{ .Site.Params.background }}" type="video/mp4">
+            {{ if .Site.Params.backgroundImage }}
+                <img src="{{ .Site.Params.backgroundImage }}" alt="Background" class="background-image">
             {{ else }}
-                <source src="bg.mp4" type="video/mp4">
+                <video autoplay muted loop>
+                    {{ if .Site.Params.background }}
+                        <source src="{{ .Site.Params.backgroundVideo }}" type="video/mp4">
+                    {{ else }}
+                        <source src="bg.mp4" type="video/mp4">
+                    {{ end }}
+                </video>
             {{ end }}
-            </video>
             <div class='content'>
                 <div>
                     <div class='contenthead'>

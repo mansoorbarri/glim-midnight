@@ -3,8 +3,6 @@
 A minimal links page made with Hugo.
 
 ## Author:
-
-- [Maheen Waris](https://maheenwaris.com)
 - [Mansoor Barri](https://mansoorbarri.com)
 
 ### demo: https://glim-midnight.pages.dev
@@ -25,7 +23,7 @@ A minimal links page made with Hugo.
 ```
 hugo new site {sitename}
 cd {sitename}
-git clone https://github.com/mansoorbarri/coming-soon.git themes/coming-soon
+git clone https://github.com/mansoorbarri/glim-midnight.git themes/coming-soon
 ```
 
 Full guide can be found here: https://github.com/mansoorbarri/glim-midnight/wiki

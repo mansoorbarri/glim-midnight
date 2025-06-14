@@ -5,7 +5,7 @@ A minimal links page made with Hugo.
 ## Author:
 - [Mansoor Barri](https://mansoorbarri.com)
 
-### demo: https://glim-midnight.pages.dev
+### demo: https://glim-midnight.mansoorbarri.com
 
 ## Features
 

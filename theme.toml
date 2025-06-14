@@ -5,7 +5,7 @@ license = "MIT"
 licenselink = "https://github.com/mansoorbarri/glim-midnight/blob/master/LICENSE"
 
 homepage = "https://github.com/mansoorbarri/glim-midnight/"
-demosite = "http://glim-midnight.pages.dev/"
+demosite = "http://glim-midnight.mansoorbarri.com/"
 
 tags = ["Bootstrap", "Dark", "Minimal", "Responsive"]
 min_version = "0.133.0"
